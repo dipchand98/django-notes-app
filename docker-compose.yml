@@ -1,6 +1,6 @@
 version : "3.3"
 services :
   web :
-     image : dipchand/prem-dip-app1:latest
+     build : .
      ports :
          - "8000:8000"
